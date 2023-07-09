@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+     crossorigin="anonymous">
+    <title>My First WebSite</title>
+    <link rel="stylesheet" href="home.css">
+    <link href="https://fonts.googleapis.com/css2?
+    family=Poppins:wght@300,400;500;600;700&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+<body>
+    
+<!----------------------header------------------------------------>
+      <div class="navbar">
+        <div class="logo">
+         <img src="desktop-wallpaper-bmw-f82-m4-in-satin-black-bmw-m4-iphone-black-background-cool-bmw-m4.jpg" height="70px" width="70px">
+        </div>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Contact</li>
+                <i class="bi bi-person-circle"></i><svg xmlns="http://www.w3.org/2000/svg" width="35" height="50" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                </svg>
+            </ul>
+        </nav>
+  </div>
+
+<!-------------------container---------------------------->
+
+<div id="carouselExampleAutoplaying" class="carousel-slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="f8b0816d-21fa-414f-b228-916403fea3e0.jpg" class="d-block w-100" id="crowserimg">
+        <div class="carousel-caption d-none d-md-block">
+            <h5>SHAMPOO</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+      </div>
+      <div class="carousel-item">
+        <img src="21b2dfc5-01d5-4dd1-9cb5-174d0dd46fde.jpg" class="d-block w-100">
+        <div class="carousel-caption d-none d-md-block">
+            <h5>VISA</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+      </div>
+      <div class="carousel-item">
+        <img src="1730646d-2439-44eb-b9c7-d5674046022d.jpg" class="d-block w-100">
+        <div class="carousel-caption d-none d-md-block">
+            <h5>SAREE</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    <script async src="https://cdn.jsdelivr.net/npm/es-module-shims@1/dist/es-module-shims.min.js" crossorigin="anonymous"></script>
+    <script type="importmap">
+    {
+      "imports": {
+        "@popperjs/core": "https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/esm/popper.min.js",
+        "bootstrap": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.esm.min.js"
+      }
+    }
+    </script>
+    <script type="module">
+      import * as bootstrap from 'bootstrap'
+
+      new bootstrap.Popover(document.getElementById('popoverButton'))
+    </script>
+  </div>
+<!---------------------featured categories---------------------------->
+<div class="categories">
+  <div class="small-container">
+      <div class="row">
+          <div class="col-3">
+              <img src="5485745.jpg">
+              <h1><b>Tesla</b></h1>
+          </div>
+          <div class="col-3">
+              <img src="photo-desktop-cars-auto-wallpaper-preview.jpg">
+              <h1><b>BMW</b></h1>
+          </div>
+          <div class="col-3">
+              <img src="HD-wallpaper-black-thar.jpg">
+              <h1><b>THAR</b></h1>
+          </div>
+      </div>
+  </div>
+ 
+ </div>
+</body>
+</html>

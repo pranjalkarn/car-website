@@ -4,6 +4,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: rgb(41, 2, 38);
+}
 .navbar
 {
     display: flex;
@@ -12,7 +15,7 @@
     background: rgb(121, 120, 120);
 }
 .logo img{
-    border-radius: 50%;
+    border-radius: 100%;
 }
 nav
 {
@@ -40,8 +43,10 @@ nav ul li
     position: relative;
     overflow: hidden;
     width: 70%;
-    border-radius: 40px;
-    margin-left: 30%;
+    margin-left: 15%;
+}
+.crowserimg{
+    width: auto;
 }
 .categories{
     margin: 70px 0;
@@ -54,12 +59,12 @@ nav ul li
 .col-3 img{
     width: 100%;
     cursor: pointer;
-    border-radius: 100%;
+    border-radius: 10%;
 }
 .col-3 h1{
     text-align: center;
     cursor: pointer;
-    color: black solid;
+    color: #fff;
 }
 .small-container{
     max-width: 1080px;
